@@ -21,13 +21,14 @@ export const EXPERIENCES = [
     
   },
   
+
 ];
 
 export const PROJECTS = [
   {
     title: "NexMeet-The Video Conferencing App",
     
-    image: "src/assets/projects/Screenshot 2025-05-06 190804.png",
+    image: "src/assets/projects/A3.png",
     
     description:
       "Designed a high-performance video conferencing platform using Stream with less than 200ms latency. Implemented secure authentication, role-based access control using Clerk, improving security by 40%. Integrated Stream Video API to enable real-time video calls, and call recording, enhancing communication efficiency. Improved user engagement with public/private rooms, scheduling, and screen sharing, by 50%.",
@@ -35,7 +36,7 @@ export const PROJECTS = [
   },
   {
     title: "Connect Four Game:",
-    image:"src/assets/projects/Connect4-game-1024x596.png.webp",
+    image:"src/assets/projects/A2.webp",
     
     description:
       "Developed a robust and engaging desktop application for playing the popular Connect Four game,implementing various features and functionalities to enhance the user experience. Utilized Java FX to create an interactive and user-friendly UI, showcasing the game board with smooth transition as discs fall",
@@ -43,7 +44,7 @@ export const PROJECTS = [
   },
   {
     title: "Portfolio Website",
-    image:"src/assets/projects/Screenshot 2025-05-06 191757.png",
+    image:"src/assets/projects/A4.png",
     
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
@@ -51,7 +52,7 @@ export const PROJECTS = [
   },
   {
     title: "University Management System:",
-    image:"src/assets/projects/a04d4c0f-bd29-4783-b8dc-dd6c600482e8.png",
+    image:"src/assets/projects/A1.png",
    
     description:
       "Developed a comprehensive University Management System, Tested efficient management of over 100 students, 10 faculty members, and 5 courses• Engineered a reliable data layer using MySQL, implementing normalized database schemas to assure data integrity and efficient query operation achieving a 100% data accuracy rate.",
