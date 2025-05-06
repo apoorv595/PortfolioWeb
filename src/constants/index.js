@@ -1,4 +1,7 @@
-
+import image1 from "../assets/projects/A1.png";
+import image2 from "../assets/projects/A2.webp";
+import image3 from "../assets/projects/A3.png";
+import image4 from "../assets/projects/A4.png";
 
 export const HERO_CONTENT = `I am a passionate frontend developer with a knack for crafting robust and scalable web applications. With  years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like  MySQL. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -28,7 +31,7 @@ export const PROJECTS = [
   {
     title: "NexMeet-The Video Conferencing App",
     
-    image: "src/assets/projects/A3.png",
+    image: image1,
     
     description:
       "Designed a high-performance video conferencing platform using Stream with less than 200ms latency. Implemented secure authentication, role-based access control using Clerk, improving security by 40%. Integrated Stream Video API to enable real-time video calls, and call recording, enhancing communication efficiency. Improved user engagement with public/private rooms, scheduling, and screen sharing, by 50%.",
@@ -36,7 +39,7 @@ export const PROJECTS = [
   },
   {
     title: "Connect Four Game:",
-    image:"src/assets/projects/A2.webp",
+    image: image2,
     
     description:
       "Developed a robust and engaging desktop application for playing the popular Connect Four game,implementing various features and functionalities to enhance the user experience. Utilized Java FX to create an interactive and user-friendly UI, showcasing the game board with smooth transition as discs fall",
@@ -44,7 +47,7 @@ export const PROJECTS = [
   },
   {
     title: "Portfolio Website",
-    image:"src/assets/projects/A4.png",
+    image: image3,
     
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
@@ -52,7 +55,7 @@ export const PROJECTS = [
   },
   {
     title: "University Management System:",
-    image:"src/assets/projects/A1.png",
+    image: image4,
    
     description:
       "Developed a comprehensive University Management System, Tested efficient management of over 100 students, 10 faculty members, and 5 courses• Engineered a reliable data layer using MySQL, implementing normalized database schemas to assure data integrity and efficient query operation achieving a 100% data accuracy rate.",
